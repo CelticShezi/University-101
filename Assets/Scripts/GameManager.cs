@@ -48,6 +48,11 @@ public class GameManager : MonoBehaviour
         return degrees[Random.Range(0, degrees.Count)];
     }
 
+    public List<string> GetDegrees()
+    {
+        return degrees.Select(d => d.DegreeName).ToList();
+    }
+
     public (GameTime time, int day) GetCurrentTime()
     {
         return (currentTime, currentDay);

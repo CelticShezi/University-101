@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="LectureBackground" style="flex-grow: 1; width: 33%; right: auto; left: 33%; top: 20%; bottom: auto; aspect-ratio: auto; background-color: rgb(123, 120, 11); height: 60%; position: absolute;">
+        <ui:Button text="X" double-click-selects-word="false" triple-click-selects-line="false" parse-escape-sequences="false" name="Close" selectable="true" focusable="true" style="position: absolute; right: 0; top: 0; height: 20px; width: 20px; color: rgb(154, 21, 21); background-color: rgba(255, 255, 255, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); align-items: center; justify-content: center; align-self: center; align-content: center;"/>
+        <ui:ListView name="DegreeList" selection-type="None" horizontal-scrolling="false" focusable="false" virtualization-method="DynamicHeight" style="top: 50px;"/>
+    </ui:VisualElement>
+</ui:UXML>
